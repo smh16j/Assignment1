@@ -1,0 +1,61 @@
+(a)	
+$ git push --set-upstream origin master
+Username for 'https://github.com': smh16j
+Enumerating objects: 11, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 703 bytes | 351.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/smh16j/Assignment1.git
+   3d373c9..7a8bcd9  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+(b)
+5 commits. I used the command "$ git rev-list --all --count"
+
+(c)
+.gitignore file was last modified on Thu Jan 10 16:45:38 2019 -0500.
+The command I used to get this information is:
+git log -1 --format="%ad" -- .gitignore
+
+(d)
+Branches can divide up your work logically if you use them often enough.
+And since a branch is just a pointer to a specific commit, there is no
+overhead involved in branching.
+Secondly, branching allows you to create an independent line of
+development.
+
+(e)
+git status displays the state of the working directory and staging
+area, including which changes have/have not been changed and which
+files aren't being tracked. git log displays committed snapshots,
+lists project history, and search for changes.
+
+(f)
+git log --follow -- Weapon.h
+
+(g)
+git log --all --grep='file'
+
+(h)
+I. Inheritance is when a class is derived from one or more parent
+   classes.
+II. Polymorphism is seen in objects that can take on more than one
+    form. 
+III. Encapsulation groups data and related methods in a single
+     unit, like in a class.
+
+(i)
+In the Dictator and Lieutenants workflow, distributed integration 
+is used. In Integration Management, centralized integration is 
+used. So Dictator and Lieutenants has various integration managers,
+each responsible for a different part of the repository, and who 
+work under a single 'dictator' (a main integration manager). 
+The Integration Management workflow has only one integration manager.
+
+(j)
+The Dictator and Lieutenants workflow is better for large projects
+becuase it allows the dictator to delegate work easily and integrate 
+large portions of code at once.
