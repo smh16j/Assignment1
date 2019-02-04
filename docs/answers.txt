@@ -59,3 +59,16 @@ The Integration Management workflow has only one integration manager.
 The Dictator and Lieutenants workflow is better for large projects
 becuase it allows the dictator to delegate work easily and integrate 
 large portions of code at once.
+
+---------------------------------------------------------------------
+
+Problem 5
+
+The RoleGame prototype is using encapsulation. There are multiple 
+classes, including one for each weapon and the Weapon class itself
+plus the WeaponFactory. Encapsulation is when data and functions
+which act upon that data are stored together in a single unit.
+Classes are a great example of this.
+
+The RoleGame is also using inheritance where each type of 
+weapon is inherited from the Weapon class.
