@@ -2,7 +2,6 @@
  * Author:	Shannon Hatcher <smh16j@my.fsu.edu>
  * CEN 4020
  * Assignment 1
- * Created on February 3, 2019
  */
 
 #include <string>
